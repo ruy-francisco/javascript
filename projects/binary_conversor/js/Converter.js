@@ -22,4 +22,14 @@ class Converter {
 		return reversedString;
 	}
 
+	convertBinaryToDecimal(input){
+		var digits = input.split("");
+		var decimalNumber = 0;
+
+		for(var i = 0; i < input.length; i++){
+			decimalNumber = 2 * decimalNumber + parseInt(input[i]);
+		}
+
+		return decimalNumber;
+	}
 }
