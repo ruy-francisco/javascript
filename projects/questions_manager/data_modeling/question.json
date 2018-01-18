@@ -1,0 +1,27 @@
+{
+	"_id": 0,
+	"categoryId": 0,
+	"subjectId": 0,
+	"dificulty": 1,
+	"lastTimeUsed": "",
+	"description": "",
+	"answers": [
+		{
+			"_id": 1,
+			"description": ""
+		},
+		{
+			"_id": 2,
+			"description": ""
+		},
+		{
+			"_id": 3,
+			"description": ""
+		},
+		{
+			"_id": 4,
+			"description": ""
+		}
+	],
+	"correctAnswerId": 0
+}
