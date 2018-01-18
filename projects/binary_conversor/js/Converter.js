@@ -7,7 +7,7 @@ class Converter {
 			var remainder = input % 2;
 			remainders.push(remainder);
 
-			input = input / 2;
+			input = parseInt(input / 2);
 		} while (input >= 1);
 
 		return this.convertArrayToReverseString(remainders);
